@@ -11,17 +11,18 @@ File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/react.d.ts' does not exist.
 Found 'package.json' at '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/package.json'.
 Entering conditional exports.
-Matched 'exports' condition 'types@<=5.0'.
+Saw non-matching condition 'types@<=5.0'.
+Matched 'exports' condition 'types'.
 Entering conditional exports.
 Matched 'exports' condition 'default'.
-Using 'exports' subpath '.' with target './ts5.0/index.d.ts'.
-File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.d.ts' exists - use it as a name resolution result.
+Using 'exports' subpath '.' with target './index.d.ts'.
+File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.d.ts' exists - use it as a name resolution result.
 Resolved under condition 'default'.
 Exiting conditional exports.
-Resolved under condition 'types@<=5.0'.
+Resolved under condition 'types'.
 Exiting conditional exports.
-Resolving real path for '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.d.ts', result '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.d.ts'.
-======== Module name 'react' was successfully resolved to '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.d.ts'. ========
+Resolving real path for '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.d.ts', result '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.d.ts'. ========
 ======== Resolving module 'react/jsx-runtime' from '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/index.ts'. ========
 Explicitly specified module resolution kind: 'NodeNext'.
 Resolving in CJS mode with conditions 'require', 'types', 'node'.
@@ -29,37 +30,34 @@ File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports
 Loading module 'react/jsx-runtime' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration.
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/package.json' exists according to earlier cached lookups.
 Entering conditional exports.
-Matched 'exports' condition 'types@<=5.0'.
+Saw non-matching condition 'types@<=5.0'.
+Matched 'exports' condition 'types'.
 Entering conditional exports.
 Matched 'exports' condition 'default'.
-Using 'exports' subpath './jsx-runtime' with target './ts5.0/jsx-runtime.d.ts'.
-File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/jsx-runtime.d.ts' exists - use it as a name resolution result.
+Using 'exports' subpath './jsx-runtime' with target './jsx-runtime.d.ts'.
+File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/jsx-runtime.d.ts' exists - use it as a name resolution result.
 Resolved under condition 'default'.
 Exiting conditional exports.
-Resolved under condition 'types@<=5.0'.
+Resolved under condition 'types'.
 Exiting conditional exports.
-Resolving real path for '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/jsx-runtime.d.ts', result '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/jsx-runtime.d.ts'.
-======== Module name 'react/jsx-runtime' was successfully resolved to '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/jsx-runtime.d.ts'. ========
-File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/package.json' does not exist.
+Resolving real path for '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/jsx-runtime.d.ts', result '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/jsx-runtime.d.ts'.
+======== Module name 'react/jsx-runtime' was successfully resolved to '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/jsx-runtime.d.ts'. ========
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/package.json' exists according to earlier cached lookups.
-File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/package.json' does not exist according to earlier cached lookups.
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/package.json' exists according to earlier cached lookups.
-======== Resolving type reference directive 'react', containing file '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/__inferred type names__.ts', root directory '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types'. ========
-Resolving with primary search path '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types'.
+======== Resolving type reference directive 'react', containing file '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/__inferred type names__.ts', root directory '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types,/home/eps1lon/Development/throwaway/node_modules/@types,/home/eps1lon/Development/node_modules/@types,/home/eps1lon/node_modules/@types,/home/node_modules/@types,/node_modules/@types'. ========
+Resolving with primary search path '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types, /home/eps1lon/Development/throwaway/node_modules/@types, /home/eps1lon/Development/node_modules/@types, /home/eps1lon/node_modules/@types, /home/node_modules/@types, /node_modules/@types'.
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/package.json' exists according to earlier cached lookups.
 'package.json' has a 'typesVersions' field with version-specific path mappings.
+'package.json' does not have a 'typesVersions' entry that matches version '5.1'.
 'package.json' does not have a 'typings' field.
 'package.json' has 'types' field 'index' that references '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index'.
-'package.json' has a 'typesVersions' entry '<=5.0' that matches compiler version '5.0.4', looking for a pattern to match module name 'index'.
-Module name 'index', matched pattern '*'.
-Trying substitution 'ts5.0/*', candidate module location: 'ts5.0/index'.
-File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index' does not exist.
-Loading module as file / folder, candidate module location '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index', target file types: TypeScript, Declaration.
-File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.ts' does not exist.
-File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.tsx' does not exist.
-File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.d.ts' exists - use it as a name resolution result.
-Resolving real path for '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.d.ts', result '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.d.ts'.
-======== Type reference directive 'react' was successfully resolved to '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/ts5.0/index.d.ts', primary: true. ========
+File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index' does not exist.
+Loading module as file / folder, candidate module location '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index', target file types: TypeScript, Declaration.
+File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.ts' does not exist.
+File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.tsx' does not exist.
+File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.d.ts' exists - use it as a name resolution result.
+Resolving real path for '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.d.ts', result '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.d.ts'.
+======== Type reference directive 'react' was successfully resolved to '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/@types/react/index.d.ts', primary: true. ========
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/typescript/lib/package.json' does not exist.
 Found 'package.json' at '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/typescript/package.json'.
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
@@ -100,4 +98,4 @@ File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/typescript/package.json' exists according to earlier cached lookups.
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
 File '/home/eps1lon/Development/throwaway/react-typescript-typesversions-exports/node_modules/typescript/package.json' exists according to earlier cached lookups.
-Done in 0.92s.
+Done in 0.84s.
